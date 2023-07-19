@@ -9,7 +9,6 @@ def add_keychains(keychains):
     keychains+=num
     print(f"Now you have {keychains}")
 
-
 def rem_keychains(keychains):
     num=int(input("How many keychains to remove?"))
     keychains-=num

@@ -15,5 +15,5 @@ for a in frnds:
         print(f"{a['Name']} is eligible for Maths Biology.")
     elif percent>70 and percent<75 and b['Maths']>=98:
         print(f"{a['Name']} is eligible for Computer Science.")
-    else:
-        print("Nobody is eligible")
+    # else:
+    #     print("Nobody is eligible")
