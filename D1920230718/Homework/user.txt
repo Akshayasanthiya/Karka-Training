@@ -1,0 +1,1 @@
+[{'Month': 1, 'Consumed data': 100, 'Bill amount': 200}, {'Month': 2, 'Consumed data': 150, 'Bill amount': 500}, {'Month': 3, 'Consumed data': 300, 'Bill amount': 2000}, {'Month': 4, 'Consumed data': 400, 'Bill amount': 4000}]

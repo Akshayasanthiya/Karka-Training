@@ -36,11 +36,12 @@ for i in my_resume['Personal details']:
         # print(my_resume['Personl details'][i])
         for j in my_resume['Personal details'][i]:
             print(f"{j}:{my_resume['Personal details']['Address'][j]}")
-for i in my_resume['Personal details']:
-    if i=='Languages known':
-        for j in my_resume['Personal details'][i]:
-            print(my_resume['Personal details']['Languages known']")
-            
+# for i in my_resume['Personal details']:
+#     if i=='Languages known':
+#         for j in my_resume['Personal details'][i]:
+#             print(my_resume['Personal details'][j])
+# for i in my_resume['Personal details']:
+
         
 
     
