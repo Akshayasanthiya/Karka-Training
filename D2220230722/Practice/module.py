@@ -1,3 +1,4 @@
+import json
 data={"Consumer":"user","eb_readings":[1100,1200,1350,1650,2050]}
 def Calculate_electricity_bill():
     bills=data['eb_readings']
@@ -30,10 +31,21 @@ def Calculate_electricity_bill():
         Dict={"Month":i+1,"Consumed data":est,"Bill amount":bill}
         List.append(Dict)
     # return bill
-    return str(List)
+    return List
 
 Bill=Calculate_electricity_bill()
-print(Bill)
-file=open(f"/home/akshaya/karka/D1920230718/Homework/{data['Consumer']}.txt",'w')
-file.write(Bill)
-file.close()
+string=str(Bill)
+# file=open(f"/home/akshaya/karka/D1920230718/Homework/{data['Consumer']}.txt",'w')
+# file.write(Bill)
+# file.close()
+choice=input("Enter the format:")
+a=choice.upper()
+if a=="DICT":
+    # file=open(f"/home/akshaya/karka/D1920230718/Homework/{data['Consumer']}.txt",'w')
+    print(Bill)
+if a=="JSON":
+    print(json.dumps(string))
+
+
+
+
